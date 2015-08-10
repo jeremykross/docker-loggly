@@ -1,7 +1,7 @@
-#!/bin/bash -x
+#!/bin/bash
 
 if [ -z ${INTERVAL_TIME} ]; then
-	INTERVAL_TIME=3000 # set default to five minutes
+	INTERVAL_TIME=300 # set default to five minutes
 fi
 
 
